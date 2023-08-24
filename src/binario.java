@@ -2,6 +2,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class binario {
+    /*
+    este es un commentario
+    */
     public static int getNumber(){
         Scanner scanNumber = new Scanner(System.in);
         System.out.println("Ingrese el número que transformará a 8-bits.");
@@ -10,7 +13,7 @@ public class binario {
     public static int divisible2(int num){
         return (num%2);
     }
-    public static void main(String[] args){
+    public static void main(String[] argumentos){
         int number=256;
         while ((number>255) | (number<0)) {
             number=getNumber();
